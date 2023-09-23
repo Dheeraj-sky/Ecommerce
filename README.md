@@ -9,9 +9,7 @@ This is a full-stack E-Commerce website built using the MERN (MongoDB, Express.j
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -19,10 +17,6 @@ This is a full-stack E-Commerce website built using the MERN (MongoDB, Express.j
 - **Product Catalog**: Display a wide range of products with details and images.
 - **Shopping Cart**: Add and manage products in the cart before proceeding to checkout.
 - **Checkout Process**: Streamlined checkout with billing and shipping information.
-- **Payment Integration**: Integrate with popular payment gateways for online payments.
-- **Order Management**: Track and manage orders for both customers and administrators.
-- **Admin Panel**: An admin dashboard for managing products, categories, and orders.
-- **Search Functionality**: Search products using keywords.
 - **Responsive Design**: A responsive user interface that works well on both desktop and mobile devices.
 
 ## Prerequisites
@@ -85,60 +79,11 @@ The project is organized into two main directories: `client` and `server`.
 
 - `client`: The front-end codebase built with React.js.
 - `server`: The back-end codebase built with Node.js and Express.js.
-
-```
-e-commerce-mern/
-├── client/
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       ├── context/
-│       ├── pages/
-│       ├── routes/
-│       ├── services/
-│       ├── styles/
-│       ├── App.js
-│       ├── index.js
-│       └── ...
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── app.js
-│   ├── server.js
-│   └── ...
-├── .gitignore
-├── .env.example
-├── package.json
-├── README.md
-└── ...
-```
-
+- 
 ## Configuration
 
-- Database configuration: In the `server/config` directory, you can configure the MongoDB connection in `db.js`.
+- Database configuration:  you can configure the MongoDB connection in `db.js`.
 - Environment variables: Create a `.env` file in the `server` directory for environment-specific configuration. Refer to `.env.example` for required variables.
-
-## Deployment
-
-To deploy this application to a production environment, follow these general steps:
-
-1. Set up a production-ready server or cloud hosting environment (e.g., AWS, Heroku, DigitalOcean).
-
-2. Configure the environment variables in your production environment based on the `.env.example` file.
-
-3. Build the client-side code for production:
-
-   ```bash
-   cd client
-   npm run build
-   ```
-
-4. Deploy both the server and client to your hosting environment.
-
-5. Make sure to configure a production-ready database, web server, and any necessary security measures.
 
 ## Contributing
 
