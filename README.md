@@ -2,6 +2,8 @@
 
 This is a full-stack E-Commerce website built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a comprehensive foundation for building and deploying an online store. This README will guide you through the setup process and explain how to use and customize the application.
 
+# [View live Demo](https://main--bespoke-brioche-fac046.netlify.app/)
+
 ## Table of Contents
 
 - [Features](#features)
